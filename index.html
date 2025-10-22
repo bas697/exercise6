@@ -13,9 +13,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
-  font-size: 16px;
+  font-variation-settings: "width" 100;
+  font-size: 35px;
+  text-align: center;
   width: 960px;
+  padding: 20px;
 }
    
   h1 {
@@ -23,6 +25,8 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  font-size: 80px;
+  text-align: center;
   }
   
   #site-title {
@@ -32,43 +36,55 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 400;
-  padding: 0;
+  font-weight: 700;
+  padding: 30px;
   margin: 0;
-  overflow:hidden;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   }
   
   nav ul {
   padding: 0;
+  font-size: 25px;
   list-style-type: none;
   margin: 0;
+  
   }
   nav li {
   float: left;
   }
+  
   nav li a {
   display: block;
-  color: blue;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   }
   nav li a:hover {
-   background-color: #111111;
+   background-color: lightblue;
   }
   .container {
   display: grid;
-  gap: 60px;
-  grid-template-columns: auto auto;
+  gap: 30px;
+  grid-template-columns: 450px 450px;
+  padding: 15px;
 }
   .container div {
-  background-color: lightgreen;
-  padding: 20px;
-  font-size: 18px;
+  background-color: lightblue;
+  font-size: 14px;
   text-align: center;
+  padding: 20px;
   }
     
   footer {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 15px;
   }
   
 </style>
@@ -82,13 +98,15 @@
 <li><a href="/">Contact</a></li>   
 </ul>
 </nav>
-<h1>At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavorus that'll make your taste buds sing.</h1>
+  
+<body>At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavorus that'll make your taste buds sing.</body>
 
   <div class="container">
-  <div><img src="banh-mi.jpg" alt="Italian Trulli" width="100%"><h2> Classic Pork Banh Mi </h2><p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p> </div>
+  <div><img src="banh-mi.jpg" alt="Italian Trulli" width="100%"><h2>Classic Pork Banh Mi </h2><p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette. A traditional favorite that balances savory, sweet, and tangy flavors in every bite.</p> </div>
   <div><img src="banh-mi.jpg" alt="Italian Trulli" width="100%"><h2>Lemongrass Chicken Banh Mi</h2><p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo. Light yet satisfying, this sandwich brings bright, aromatic flavors that'll transport you straight to Saigon.</p></div>
   <div><img src="banh-mi.jpg" alt="Italian Trulli" width="100%"><h2>Tofu Banh Mi</h2><p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight. Proof that plant-based can be just as bold and craveable as any meat-filled sandwich.</p></div>  
   <div><img src="banh-mi.jpg" alt="Italian Trulli" width="100%"><h2>Five-Spice Beef Banh Mi</h2><p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo. Rich, warming spices meet cool, crunchy toppings for an unforgettable flavor experience.</p></div>
+
 </div>
 <footer>Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.</footer>
 </body>
